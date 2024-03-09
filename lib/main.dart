@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
               SizedBox(
                 width: 300,
                 child: TextFormField(
+                  obscureText: true,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
