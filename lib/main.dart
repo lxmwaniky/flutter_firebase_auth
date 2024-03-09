@@ -49,7 +49,8 @@ class _MyAppState extends State<MyApp> {
             children: [
               SizedBox(
                 width: 300,
-                child: TextFormField(
+                child: TextField(
+                  controller: _email,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
@@ -62,7 +63,8 @@ class _MyAppState extends State<MyApp> {
               const SizedBox(height: 20),
               SizedBox(
                 width: 300,
-                child: TextFormField(
+                child: TextField(
+                  controller: _password,
                   obscureText: true,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
