@@ -11,8 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Firebase Auth ')
-      )
+        title: const Text('Firebase Auth ')
+      ),
+      body: Center(
+        
+      ),
     );
   }
 }
