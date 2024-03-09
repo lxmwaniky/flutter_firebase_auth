@@ -67,6 +67,7 @@ class _MyAppState extends State<MyApp> {
                   controller: _password,
                   obscureText: true,
                   enableSuggestions: false,
+                  autocorrect: false,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
