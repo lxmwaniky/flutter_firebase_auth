@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Firebase Auth ')
       ),
-      body: Center(
+      body: const Center(
+        child: Text('Login Page'),
         
       ),
     );
