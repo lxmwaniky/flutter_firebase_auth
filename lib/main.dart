@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'firebase_options.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -66,6 +67,7 @@ class _MyAppState extends State<MyApp> {
                 child: TextField(
                   controller: _password,
                   obscureText: true,
+                  enableSuggestions: false,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
@@ -78,7 +80,12 @@ class _MyAppState extends State<MyApp> {
               TextButton(
                 onPressed: () 
                 async {
-
+                  final email = _email.text;
+                  final password = _password.text;
+                  await FirebaseAuth.instance.createUserWithEmailAndPassword(
+                    email: email,
+                    password: password,
+                  );
                 },
                 child: const Text('Register'),
               )
