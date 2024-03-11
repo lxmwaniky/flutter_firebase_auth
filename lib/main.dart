@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
                 decoration: InputDecoration(
                   hintText: 'Enter your Email',
                   labelText: 'Email',
+                  border: OutlineInputBorder()
                 ),
               ),
               TextField(),
