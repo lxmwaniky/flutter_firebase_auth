@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "372368420410",
-    "project_id": "uoemapp",
-    "storage_bucket": "uoemapp.appspot.com"
+    "project_number": "452909170188",
+    "project_id": "fir-test-38783",
+    "storage_bucket": "fir-test-38783.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:372368420410:android:9bd682c7b68ee889190f03",
+        "mobilesdk_app_id": "1:452909170188:android:31ffc9c70d829961697829",
         "android_client_info": {
           "package_name": "com.lxmwaniky.flutter_firebase_auth"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDjsbNiYwQUkoPDf45U_S_FlNnTltjBv5I"
+          "current_key": "AIzaSyDGyxTA3NOPTjcmNWmXyOEU7IS4_oAXbKI"
         }
       ],
       "services": {
