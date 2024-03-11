@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue[500],
           title: const Text('FireBase Authentication'),
         ),
-        body: Center(),
+        body: Center(
+          child: Text('Login Page Auth'),
+          
+        ),
       ),
     );
   }
