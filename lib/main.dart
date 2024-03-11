@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Welcome to FireBase Authentication', 
                 style: TextStyle(
                   fontSize: 20, fontWeight: FontWeight.bold
