@@ -15,8 +15,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue[500],
-          title: Text('FireBase Authentication'),
+          title: const Text('FireBase Authentication'),
         ),
+        body: Center(),
       ),
     );
   }
