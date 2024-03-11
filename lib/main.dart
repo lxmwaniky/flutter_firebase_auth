@@ -28,25 +28,29 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 10),
-              TextField(
-                decoration: InputDecoration(
-                  hintText: 'Enter your Email',
-                  labelText: 'Email',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
+              SizedBox(
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: 'Enter your Email',
+                    labelText: 'Email',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   ),
                 ),
               ),
               const SizedBox(height: 5),
-              TextField(
-                enableSuggestions: false,
-                autocorrect: false,
-                obscureText: true,
-                decoration: InputDecoration(
-                  hintText: 'Enter your Password',
-                  labelText: 'Password',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
+              SizedBox(
+                child: TextField(
+                  enableSuggestions: false,
+                  autocorrect: false,
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    hintText: 'Enter your Password',
+                    labelText: 'Password',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   ),
                 ),
               ),
