@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
                   fontSize: 20, fontWeight: FontWeight.bold
                 ),
               ),
+              const SizedBox(height: 10),
               TextField(
                 decoration: InputDecoration(
                   hintText: 'Enter your Email',
@@ -36,15 +37,20 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 5),
               TextField(
+                enableSuggestions: false,
+                autocorrect: false,
+                obscureText: true,
                 decoration: InputDecoration(
-                  hintText: 'Enter your Email',
-                  labelText: 'Email',
+                  hintText: 'Enter your Password',
+                  labelText: 'Password',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
               ),
+              
             ],
           )
           
