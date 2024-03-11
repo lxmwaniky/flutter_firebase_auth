@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               SizedBox(
+                width: 350,
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: 'Enter your Email',
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
               ),
               const SizedBox(height: 5),
               SizedBox(
+                width: 350,
                 child: TextField(
                   enableSuggestions: false,
                   autocorrect: false,
