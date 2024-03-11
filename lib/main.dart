@@ -18,7 +18,24 @@ class MyApp extends StatelessWidget {
           title: const Text('FireBase Authentication'),
         ),
         body: Center(
-          child: Text('Login Page Auth'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Welcome to FireBase Authentication', 
+                style: TextStyle(
+                  fontSize: 20, fontWeight: FontWeight.bold
+                ),
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: 'Enter your Email',
+                  labelText: 'Email',
+                ),
+              ),
+              TextField(),
+            ],
+          )
           
         ),
       ),
