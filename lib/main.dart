@@ -31,10 +31,20 @@ class MyApp extends StatelessWidget {
                 decoration: InputDecoration(
                   hintText: 'Enter your Email',
                   labelText: 'Email',
-                  border: OutlineInputBorder()
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
                 ),
               ),
-              TextField(),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: 'Enter your Email',
+                  labelText: 'Email',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+              ),
             ],
           )
           
