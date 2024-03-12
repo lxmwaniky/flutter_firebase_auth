@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.green[700],
+        backgroundColor: Colors.green[200],
         appBar: AppBar(
           backgroundColor: Colors.blue[500],
           title: const Text('FireBase Authentication'),
