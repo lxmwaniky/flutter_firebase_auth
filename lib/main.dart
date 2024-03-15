@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_auth/features/app/splash_screen/splash_screen.dart';
 
-void main() {
+Future main() async{
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
