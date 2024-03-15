@@ -8,8 +8,15 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
-  
+  @override
+  void initState() {
+    Future.delayed(
+      Duration(seconds: 3),(){
+        Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => LoginPage(),), (route) => false)
+      }
+    );
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
